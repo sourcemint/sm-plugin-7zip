@@ -1,0 +1,20 @@
+{
+    "name": "sm-plugin-7zip",
+    "version": "0.1.0",
+    "pm": "sm",
+    "main": "./plugin.js",
+    "mappings": {
+        "p7zip": [
+            "sm",
+            "http://downloads.sourceforge.net/project/p7zip/p7zip/9.20.1/p7zip_9.20.1_src_all.tar.bz2",
+            {
+                "descriptor": {
+                    "pm": "make",
+                    "bin": {
+                        "7za": "./bin/7za"
+                    }
+                }
+            }
+        ]
+    }
+}
